@@ -26,24 +26,28 @@
 <body class=" bg-info">
   <div  id="wrapper">
       <div >
-          <div class="h2 p-3 text-light bg-dark " >Stop Watch</div>
+          <div class="h2 p-3 text-light bg-dark text-center" style="width: 250px; height: 80px;">Stop Watch</div>
           
       </div>
-      <div class="container d-flex justify-content-center">
-          <div class="d-inline-flex ">
-            <div class="time" ><span id="min" class="time-minute">00</span>:</div>
-            <div class="time" ><span id="sec" class="time-second">00</span>:</div>
-            <div class="time" >
-            <span id="msec" class="time-milisecond">00</span>
-        </div>
+      <div style="height: 80px;">
+        <div class="container d-flex justify-content-center">
+            <div class="d-inline-flex justify-content-center" style="width: 250px;">
+              <div class="time" ><span id="min" class="time-minute">00</span>:</div>
+              <div class="time" ><span id="sec" class="time-second">00</span>:</div>
+              <div class="time" >
+              <span id="msec" class="time-milisecond">00</span>
           </div>
-      </div>    
+            </div>
+            
+        </div>   
+        <div class="container d-flex justify-content-center">
+          <span class="btn-sm"><i class="fas fa-play display-6 text-light" id="play"></i> </span>
+          <!-- <i class="fas fa-pause pe-1 display-6"></i> -->
+          <span class="btn-sm"><i class="fas fa-circle-stop display-6 text-dark" id="stop"></i></span>
+         </div>   
+      </div>
     </div>
-    <div class="container d-flex justify-content-center">
-        <span class="btn-sm"><i class="fas fa-play display-6 text-light" id="play"></i> </span>
-        <!-- <i class="fas fa-pause pe-1 display-6"></i> -->
-        <span class="btn-sm"><i class="fas fa-circle-stop display-6 text-dark" id="stop"></i></span>
-       </div>  
+    
   </div>
     
 
