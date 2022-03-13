@@ -5,14 +5,14 @@
         let min = 0;
  playBtn.addEventListener("click", () => {
    
-    if (playBtn.classList.value == "fas fa-play display-6 text-light"){
-        playBtn.classList.value = "fas fa-pause pe-1 display-6"
+    if (playBtn.classList.value == "fas fa-play display-2 text-light"){
+        playBtn.classList.value = "fas fa-pause display-2 text-light"
         timeInterval = setInterval(increase, 10);
         
         
     }
     else {
-        playBtn.classList.value = "fas fa-play display-6 text-light";
+        playBtn.classList.value = "fas fa-play display-2 text-light";
         clearInterval(timeInterval);
          
     }
@@ -21,7 +21,7 @@
 
     document.getElementById("stop").addEventListener("click", () => {
         
-        if (playBtn.classList.value == "fas fa-play display-6 text-light"){
+        if (playBtn.classList.value == "fas fa-play display-2 text-light"){
             restart();
         }
     }) 
