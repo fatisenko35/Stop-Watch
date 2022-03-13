@@ -24,9 +24,6 @@ At the end of the this coding challenge, students will be able to;
 
 - Demonstrate their knowledge of algorithmic design principles by using JavaScript and Python effectively.
 
-## Expected Outcome
-
-![Project 024 Snapshot](stopwatch.gif)
 
 
 ## Problem Statement
