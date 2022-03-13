@@ -13,17 +13,23 @@
             font-size: 2rem;
         }
         #wrapper{
-            height: 100vh;
+            margin: auto;
+            margin-top:1rem;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
     </style>
 </head>
 <body class=" bg-info">
-  <div class="container" id="wrapper">
-      <div class="container p-3 d-flex  justify-content-center">
-          <div class="h2 p-2 text-light bg-dark " >Stop Watch</div>
+  <div  id="wrapper">
+      <div class="">
+          <div class="h2 p-3 text-light bg-dark " >Stop Watch</div>
           
       </div>
-      <div class="container d-flex justify-content-center">
+      <div class="">
           <div class="d-inline-flex ">
             <div class="time" ><span id="min" class="time-minute">00</span>:</div>
             <div class="time" ><span id="sec" class="time-second">00</span>:</div>
