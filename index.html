@@ -14,24 +14,27 @@
         }
         #wrapper{
             margin: auto;
-            margin-top:1rem;
-            width: 350px;
+            min-width: 350px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
+        }
+        div span
+        {
+          font-size: 4rem;
         }
     </style>
 </head>
-<body class=" bg-info">
-  <div  id="wrapper">
+<body >
+  <div class="container-fluid bg-info" id="wrapper" style="width: 100%; height: 100vh;">
       <div >
-          <div class="h2 p-3 text-light bg-dark text-center" style="width: 250px; height: 80px;">Stop Watch</div>
+          <div class="h2 p-5 text-light bg-dark" style="min-width: 450px; height: 200px;"><h1 class="h1 display-1"><center>Stop Watch</center></h1></div>
           
       </div>
       <div style="height: 80px;">
-        <div class="container d-flex justify-content-center">
-            <div class="d-inline-flex justify-content-center" style="width: 250px;">
+        <div class="container-fluid d-flex justify-content-center p-5" >
+            <div class="d-inline-flex justify-content-center" style="width: 450px;">
               <div class="time" ><span id="min" class="time-minute">00</span>:</div>
               <div class="time" ><span id="sec" class="time-second">00</span>:</div>
               <div class="time" >
@@ -41,9 +44,9 @@
             
         </div>   
         <div class="container d-flex justify-content-center">
-          <span class="btn-sm"><i class="fas fa-play display-6 text-light" id="play"></i> </span>
+          <span class="btn-sm"><i class="fas fa-play display-2 text-light" id="play"></i> </span>
           <!-- <i class="fas fa-pause pe-1 display-6"></i> -->
-          <span class="btn-sm"><i class="fas fa-circle-stop display-6 text-dark" id="stop"></i></span>
+          <span class="btn-sm"><i class="fas fa-circle-stop display-2 text-dark" id="stop"></i></span>
          </div>   
       </div>
     </div>
